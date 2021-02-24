@@ -1,0 +1,10 @@
+/* CSS from the tutorial. May need to be modified */
+.contactForm{
+    text-align: center;
+
+}
+
+.formField{
+    width: 40% !important;
+    border: none !important;
+}

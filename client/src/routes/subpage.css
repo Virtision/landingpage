@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Source+Sans+Pro|Delius+Unicase');
+@import url('https://fonts.googleapis.com/css?family=Lato');
+.navBar {
+  position: relative;
+  padding-left: 15%;
+  width: 100%;
+  padding-top:6%;
+}
+.subpage{
+  width: 100%;
+  height: auto;
+  margin:3% auto;
+
+}
+.sub_container {
+  position: relative;
+  margin: auto;
+
+  border-radius: 3px;
+  padding: 0 10%;
+
+}
+.title{
+  text-align: center;
+}
+.sub_container .subtext{
+  max-width: 600px;
+  text-align:center;
+  margin-left: auto;
+  margin-right:auto;
+  color: #555;
+  margin-bottom: 5%;
+  position:relative;
+
+
+}
+.col2{
+  -webkit-box-flex:0;
+  -ms-flex:0 0 24%;
+  flex:0 0 24%;
+  max-width:24%;
+  text-align: center
+
+}
+.row2 {
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+  margin: 1%;
+  padding-bottom: 2%
+}
+.rowBorder{
+
+   border-bottom: 1px solid rgba(0,0,0,1)
+}
+.tableTitle{
+  font-weight: 900;
+
+}
+.planName{
+  font-size: 1.9rem;
+  text-align: center
+}
+#team:hover {
+  min-width:0;
+  background-color:#fff;
+  box-shadow: 0 4px 20px 0 rgba(86, 156, 255,.5);
+
+}
+.noMargin{
+  margin:0 !important;
+}
+.plan {
+  position: relative;
+  font-size: 1.25em;
+  font-weight: 300;
+  color: #2a8dff;
+  text-align: center !important;
+
+}
+.plan::after{
+  content:'/Floor Plan*';
+  color: black;
+  font-size: 1em;
+
+}
+.scenesize::before{
+  content: '<= '
+}
+.red{
+  color:red;
+}
+.green{
+  color:green;
+    font-weight: 800;
+}
+.blue{
+  color: blue;
+
+}
+.service{
+  background: url('https://s3.amazonaws.com/virtision-tech-assets/images/serviceBG.png');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+#purchaseButton{
+    background-color: #fcc01b !important;
+    box-shadow: 0 0 14px 0 rgba(252,83,26,0.1) !important;
+
+}

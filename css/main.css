@@ -188,7 +188,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 .btn-email:hover, .btn-email:focus, .btn-email:active, .btn-email.active, .open .dropdown-toggle.btn-email {
     color: #E30012;
-    border-color: #E30012;
     background-color: rgba(0,0,0,.0);
 }
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
@@ -218,7 +217,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 .btn-email.disabled, .btn-email[disabled], fieldset[disabled] .btn-email, .btn-email.disabled:hover, .btn-email[disabled]:hover, fieldset[disabled] .btn-email:hover, .btn-email.disabled:focus, .btn-email[disabled]:focus, fieldset[disabled] .btn-email:focus, .btn-email.disabled:active, .btn-email[disabled]:active, fieldset[disabled] .btn-email:active, .btn-email.disabled.active, .btn-email.active[disabled], fieldset[disabled] .btn-email.active {
     background-color: rgba(0, 0, 0, 0);
-    border-color: #FF3B30;
 }
 .btn-warning.disabled, .btn-warning[disabled], fieldset[disabled] .btn-warning, .btn-warning.disabled:hover, .btn-warning[disabled]:hover, fieldset[disabled] .btn-warning:hover, .btn-warning.disabled:focus, .btn-warning[disabled]:focus, fieldset[disabled] .btn-warning:focus, .btn-warning.disabled:active, .btn-warning[disabled]:active, fieldset[disabled] .btn-warning:active, .btn-warning.disabled.active, .btn-warning.active[disabled], fieldset[disabled] .btn-warning.active {
     background-color: rgba(0, 0, 0, 0);
@@ -256,7 +254,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 .btn-email.btn-fill{
     background-color: #E30052;
-    border-color: #E30052;
 }
 
 .btn-default.btn-fill:hover, .btn-default.btn-fill:focus, .btn-default.btn-fill:active, .btn-default.btn-fill.active, .open .dropdown-toggle.btn-fill.btn-default {
@@ -281,7 +278,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 }
 .btn-email.btn-fill:hover, .btn-email.btn-fill:focus, .btn-email.btn-fill:active, .btn-email.btn-fill.active, .open .dropdown-toggle.btn-email.btn-fill {
     background-color: #E30022;
-    border-color: #E30022;
 }
 
 /*          End Buttons fill          */
@@ -351,21 +347,23 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     padding: 10px 16px;
 }
 .logo-img{
+  top:2%;
   width:48px;
-}
-.header{
-  margin-left: 50% !important;
+  z-index:2000;
+position:absolute;
 }
 .media a{
   font-size: 32px;
   padding-right: 16px;
   color: white;
 }
+.demo {
+  margin-top:100px;
+  z-index:100;
+}
 .media {
-  padding: 24px;
-  margin: 0 auto;
+  margin-left: 0;
   width: 200px;
-  margin-top: 20px;
 }
 /*           Navigation Bar             */
 .navbar{
@@ -690,6 +688,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     position: absolute;
     top: 0;
     width: auto;
+    z-index: 1;
 }
 .cover{
     position: fixed;
@@ -714,7 +713,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     background-color: rgba(37, 28, 5, 0.6);
 }
 .cover.red{
-    background-color: rgba(35, 3, 2, 0.66);
+    background-color: rgba(227, 0, 82, 0.66);
 }
 
 .blur{
@@ -725,7 +724,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     left: 50px;
     position: absolute;
     top: 20px;
-     z-index: 3;
+    z-index: 3;
 }
 .logo-container .logo{
     overflow: hidden;
@@ -739,7 +738,6 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     color: #FFFFFF;
     line-height: 20px;
     float: left;
-    margin-left: 10px;
     margin-top: 10px;
     width: 60px
 }
@@ -748,9 +746,10 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     font-size: 56px;
     font-weight: 300;
     position: relative;
-    text-align: center;
+    text-align: left;
+    margin-top:120px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
-    margin-top: 150px;
+
     z-index: 3;
 }
 .main .logo.pop{
@@ -768,7 +767,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
  .main .motto, .main .subscribe .info-text{
     color: #FFFFFF;
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
-    text-align: center;
+    text-align: left;
 }
 .main .motto {
     font-size: 28px;
@@ -848,6 +847,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     .main .subscribe .form-group{
         width: 250px;
     }
+
 }
 
 
@@ -952,5 +952,11 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     #video_background{
         display: none;
     }
+    .logo-img{
+      top:-20%;}
 
+}
+@media (max-width:1200px) and (min-width: 768px){
+  .logo-img{
+    top:-25%;}
 }

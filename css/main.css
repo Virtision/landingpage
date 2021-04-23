@@ -368,6 +368,13 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   text-align: center;
   margin-bottom: 5%;
 }
+.center-close .pop {
+  text-align: center;
+}
+.center-close .motto {
+  text-align: center;
+  margin-bottom: 5%;
+}
 .hero .content{
     position: relative;
     z-index: 4;

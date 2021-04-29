@@ -270,6 +270,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 .modal-backdrop.in {
     opacity: 0.25;
 }
+
 .video {
   width:300px;
 }

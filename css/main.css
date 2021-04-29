@@ -207,6 +207,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   font-size: 32px;
   padding-right: 16px;
   color: white;
+  text-decoration: none;
 }
 
 .demo {

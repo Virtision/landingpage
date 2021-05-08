@@ -96,12 +96,17 @@ h6, .h6 {
   font-weight: bold;
   text-transform: uppercase;
 }
-
+footer h5, .h5 {
+    font-size: 16px;
+    color: #dddddd
+}
 p {
   font-size: 16px;
   line-height: 1.6180em;
 }
-
+.legal ul {
+color: #dddddd  
+}
 .legal h4, h5 {
   color: #dddddd;
   font-weight: bolder;

@@ -88,7 +88,7 @@ h4, .h4 {
 }
 
 h5, .h5 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 h6, .h6 {
@@ -96,10 +96,25 @@ h6, .h6 {
   font-weight: bold;
   text-transform: uppercase;
 }
-
+footer h5, .h5 {
+    font-size: 16px;
+    color: #dddddd
+}
 p {
   font-size: 16px;
   line-height: 1.6180em;
+}
+.legal ul {
+color: #dddddd
+}
+.legal h4, h5 {
+  color: #dddddd;
+  font-weight: bolder;
+}
+.legal a {
+  color: #dddddd;
+  font-weight: 500;
+  font-size: 14;
 }
 
 h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
@@ -208,6 +223,11 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   padding-right: 16px;
   color: white;
   text-decoration: none;
+}
+
+.legal-normal {
+  font-size: 16px;
+  color: white;
 }
 
 .demo {
@@ -401,7 +421,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 
 .logo_text {
   font-family: 'Poppins', sans-serif;
-  font-size: 24px;
+  font-size: 18px;
   color: #F2F2F2;
 }
 
@@ -481,15 +501,8 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   z-index: 1;
 }
 
-.footer {
-  position: relative;
-  bottom: 20px;
-  right: 0px;
-  width: 100%;
-  color: #AAAAAA;
-  z-index: 4;
-  text-align: right;
-  margin-top: 50px;
+footer{
+  background-color:  rgba(112, 136, 180, 0.1);
 }
 
 .footer a {
@@ -508,12 +521,15 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   .hero .logo {
     font-size: 2.5rem;
   }
+
   .value .pop {
     font-size: 1.5rem;
   }
+
   .value .motto {
     font-size: 1.2rem;
   }
+
   .hero .motto {
     font-size: 24px;
   }
@@ -527,15 +543,19 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   .hero .logo {
     font-size: 3rem;
   }
+
   .value .pop {
     font-size: 1.5rem;
   }
+
   .hero .motto {
     font-size: 24px;
   }
+
   .value .motto {
     font-size: 1.2rem;
   }
+
   .hero .subscribe .form-inline .btn {
     margin-top: 0;
     width: auto;
@@ -550,22 +570,25 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   .hero .logo {
     font-size: 3rem;
   }
+
   .hero .motto {
     font-size: 26px;
   }
+
   .value .pop {
     font-size: 2rem;
   }
+
   .value .motto {
     font-size: 1.5rem;
   }
+
   .hero .subscribe .form-inline .btn {
     margin-top: 0;
     width: auto;
   }
 
   .footer {
-    position: fixed;
     bottom: 20px;
   }
 }
@@ -583,12 +606,15 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
   .hero .logo {
     font-size: 3.5rem;
   }
+
   .hero .motto {
     font-size: 28px;
   }
+
   .value .pop {
     font-size: 42px;
   }
+
   .value .motto {
     font-size: 1.7rem;
   }
